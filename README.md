@@ -1,2 +1,0 @@
-# Pythia
-LLM Chat APP

@@ -1,9 +1,0 @@
-{% for message in messages %}
-<div class="{% if message.role == 'user' %}user-message{% else %}assistant-message{% endif %}" id="message-{{ message.id }}">
-    {% if message.role == 'user' %}
-        {{ message.content }}
-    {% else %}
-        <div class="markdown-content">{{ message.content }}</div>
-    {% endif %}
-</div>
-{% endfor %}
