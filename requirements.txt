@@ -1,0 +1,12 @@
+Django==4.2.7
+channels==4.0.0
+channels-redis==4.1.0
+daphne==4.0.0
+psycopg2-binary==2.9.9
+httpx==0.25.0
+django-htmx==1.16.0
+uvicorn==0.23.2
+gunicorn==21.2.0
+whitenoise==6.5.0
+python-dotenv==1.0.0
+Pillow==10.0.1
